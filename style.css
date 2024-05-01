@@ -1,0 +1,51 @@
+@font-face {
+  font-family: marzo;
+  src: url(Marzo-W00-Regular.ttf);
+  font-weight: light;
+}
+* {
+  font-family: marzo;
+}
+.ell {
+  margin-left: 2vw;
+  resize: both;
+  overflow: auto;
+  border: 1px solid black;
+  width: 50vw;
+  border-radius: 10px;
+  max-height: 80vh;
+}
+.hid {
+  visibility: hidden;
+}
+.hea {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+.abs {
+  border: none;
+  text-decoration: none;
+  box-shadow: none;
+  font-size: large;
+  width: 4.2rem;
+  padding: 0;
+}
+p {
+  margin-bottom: 0 !important;
+}
+
+.func {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 35px 35px 70px #e3e3e3, -35px -35px 70px #ffffff;
+}
+
+.func-con {
+  padding: 10px;
+}

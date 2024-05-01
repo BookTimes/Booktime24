@@ -49,3 +49,9 @@ p {
 .func-con {
   padding: 10px;
 }
+
+.log {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}

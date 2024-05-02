@@ -58,3 +58,29 @@ p {
   bottom: 10px;
   right: 20px;
 }
+
+#scheduleContainer {
+  position: absolute;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px #a6a6a6, -5px -5px 10px #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 12vw;
+  padding: 10px;
+  margin: 3vw;
+  text-align: center;
+  gap: 10px;
+}
+
+.pgd {
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 4px 4px 8px #a6a6a6, -4px -4px 8px #ffffff;
+}
+
+.prd {
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: inset 4px 4px 8px #a6a6a6, inset -4px -4px 8px #ffffff;
+}
